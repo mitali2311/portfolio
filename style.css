@@ -1,0 +1,507 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    /* width: 100vw; */
+    overflow: hidden;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+
+#home {
+    position: relative;
+    margin-bottom: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#home #main {
+    padding: 0;
+    margin: 0;
+}
+
+#home #main>.bg-container {
+    margin-bottom: 0;
+    padding: 0;
+}
+
+#home #main .bg-container .common {
+    /* border-bottom: 10px solid black; */
+    width: 100%;
+    height: 100vh;
+    /* opacity: 0.7; */
+    margin-bottom: 0;
+    padding: 0;
+    white-space: nowrap;
+    background-attachment: scroll;
+}
+
+#home #main .bg-container .txt {
+    color: white;
+    font-size: x-large;
+}
+
+#home #main .bg-container .image-overlay {
+    width: 100%;
+    height: 100.54vh;
+    position: absolute;
+    background: #000000e3;
+    overflow: hidden;
+    margin-bottom: 0;
+    object-fit: cover;
+    bottom: 0 !important;
+    top: 0;
+}
+
+#home #main .bg-container .image-overlay .cmn {
+    color: white;
+}
+
+#home #main .bg-container .image-overlay nav {
+    padding: 1rem 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between ;
+    z-index: 99999;
+    margin-bottom: 3rem;
+    position: fixed;
+    width: 100% ;
+    background: #000000e1;
+}
+
+#home #main .bg-container .image-overlay .logo {
+    font-size: 45px;
+    font-family: 'Rubik Mono One', sans-serif;
+    letter-spacing: 4px;
+    border-top:2px solid white  ;
+    border-bottom:2px solid white  ;
+}
+
+#home #main .bg-container .image-overlay .logo a {
+    color: white;
+    text-decoration: none;
+}
+
+#home #main .bg-container .image-overlay .logo span {
+    color: rgb(255, 103, 103);
+}
+
+#home #main .bg-container .image-overlay nav .content {
+    display: flex;
+    align-items: center;
+    color: white !important;
+    list-style: none;
+    font-family: 'Geologica', sans-serif;
+    font-size: larger;
+    width: 50%;
+}
+
+#home #main .bg-container .image-overlay nav .content a {
+    color: white;
+    text-decoration: none;
+    margin-right: 1rem;
+    transition: ease 0.5s;
+}
+
+#home #main .bg-container .image-overlay nav .content a:hover {
+    color: rgb(255, 103, 103);
+}
+
+#home #main .bg-container .image-overlay nav .content button {
+    background-color: rgb(255, 103, 103);
+    color: white;
+    font-size: 18.2px;
+    font-family: 'Geologica', sans-serif;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+}
+
+#home #main .bg-container .image-overlay .about {
+    text-shadow: 5px 2px 20px rgba(243, 182, 182, 0.829);
+    color: white;
+    /* float: left; */
+    width: 50%;
+    overflow: hidden;
+}
+
+#home #main .bg-container .image-overlay .about h1 {
+    font-family: 'Rubik Mono One', sans-serif;
+    font-size: 4rem;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    /* float: right; */
+    /* margin-right: 4rem; */
+}
+
+/* font-family: 'Rubik Mono One', sans-serif; */
+/* float: right;margin-right: 4rem; */
+#home #main .bg-container .image-overlay .about .about-txt {
+    font-family: 'Rubik Mono One', sans-serif;
+    font-size: 18px;
+    letter-spacing: 2px;
+    overflow: hidden;
+    word-spacing: 2px;
+    /* float:  */
+    margin-right: 4rem;
+    color: rgb(212, 212, 212);
+    margin-bottom: 0px;
+}
+
+#home #main .bg-container .image-overlay .about-img img {
+    height: 400px;
+    width: 400px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+#home #main .bg-container .image-overlay .description {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10rem 10rem;
+    overflow: hidden;
+}
+
+#skills {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    height: 100vh;
+    /* background: rgb(17, 128, 112); */
+        
+    
+}
+#skills img{
+    width: 100%;
+    height: 120vh;
+
+}
+#skills .image-over-2{
+    width: 100%;
+    height: 100.54vh;
+    position: absolute;
+    background: #000000d8;
+    overflow: hidden;
+    margin-bottom: 0;
+    object-fit: cover;
+    bottom: 0 !important;
+    top: 0;
+    padding: 7rem 0rem;
+}
+#skills .heading{
+    text-shadow: 1px 1px 20px rgb(255, 103, 103) ;
+    text-align: center;
+    font-size: 54px;
+    font-family: 'Rubik Mono One', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+
+}
+
+#skills .image-over-2 #skill-container #row-1{   
+    margin-top: 2rem;
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 190px;
+}
+#skills .image-over-2 #skill-container #row-1 .box{
+    width: 200px;
+    height: 170px;
+    aspect-ratio: 5/7;
+    background-color: rgba(0, 0, 0, 0.726);
+    border-radius: 10px;
+}
+#skills .image-over-2 #skill-container #row-2{   
+    margin-top: rem;
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100vh;
+}
+
+#skills .image-over-2 #skill-container #row-2 .box{
+    /* background: #c98686da; */
+    width: 200px;
+    height: 170px;
+    aspect-ratio: 5/7;
+    background-color: rgba(0, 0, 0, 0.726);
+    border-radius: 10px;
+}
+#skills .image-over-2 #skill-container #row-1 .box:nth-child(1){
+    background-image: url(./images/c++.jpg);
+    background-blend-mode: multiply;
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 400;
+    
+    background-size: cover;
+    background-position: 0px -0px;
+    background-repeat: no-repeat;
+}
+#skills .image-over-2 #skill-container .box .cmnspan{
+    display: flex;
+    top: 40%;
+    position: relative;
+    justify-content: center;
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    text-shadow: 1px 1px 20px white;
+}
+#skills .image-over-2 #skill-container #row-1 .box:nth-child(2){
+    background-image: url(./images/GettyImages-1086740226-5c2d625a4cedfd00016ed36c.jpg);
+    background-blend-mode: multiply;
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 400;
+    background-size: cover;
+    background-position: 0px -0px;
+    background-repeat: no-repeat;
+}
+#skills .image-over-2 #skill-container #row-1 .box:nth-child(3){
+    background-image: url(./images/css.jpg);
+    background-blend-mode: multiply;
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 400;
+    background-size: cover;
+    background-position: 0px -0px;
+    background-repeat: no-repeat;
+}
+#skills .image-over-2 #skill-container #row-2 .box:nth-child(1){
+    background-image: url(./images/c.avif);
+    background-blend-mode: multiply;
+    color: white;
+    font-size: 1rem !important;
+    text-align: center;
+    font-weight: 400;
+    background-size: cover;
+    background-position: -3px 0px;
+    background-repeat: no-repeat;
+}
+#skills .image-over-2 #skill-container #row-2 .box:nth-child(2){
+    background-image: url(./images/node.webp);
+    background-blend-mode: multiply;
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 400;
+    background-size: cover;
+    background-position: -20px -0px;
+    background-repeat: no-repeat;
+}
+#skills .image-over-2 #skill-container #row-2 .box:nth-child(3){
+    background-image: url(./images/express.png);
+    background-blend-mode: multiply;
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 400;
+    
+    background-size: cover;
+    background-position: 0px -0px;
+    background-repeat: no-repeat;
+}
+#project{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+#project .bg-over-3{
+    width: 100%;
+    height: 100.54vh;
+    position: absolute;
+    background: #000000e1;
+    overflow: hidden;
+    margin-bottom: 0;
+    object-fit: cover;
+    bottom: 0 !important;
+    top: 0;
+    padding: 10rem 0;
+}
+#project .bg-over-3 .heading-pr{
+    /* margin-top: 200rem; */
+    font-family: 'Rubik Mono One', sans-serif;
+    color: white;
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 20px white;
+}
+#project .bg-over-3 .pr-row{
+    margin: 7rem 3rem ;
+    width: 100vw ;
+    position: relative;
+    height: 10rem;
+    display: flex;
+    align-items: center;
+}
+#project .bg-over-3 .pr-row .pr-box{
+    width: 20% !important;
+    overflow: hidden;
+    border-radius: 10px;
+    padding:0rem;
+    margin: 0 1rem;
+    height: 10rem;
+    background-color: rgb(255, 255, 255);
+}
+#project .bg-over-3 .pr-row .pr-box h4{
+    text-transform: uppercase;
+    font-weight: bold;
+    background: #000;
+    color: white;
+    padding: 0.5rem;
+    text-align: center;
+    overflow: hidden;
+}
+#project .bg-over-3 .pr-row .pr-box .info{
+    line-height: 20px;
+    font-weight:400;
+    text-align: center;
+    padding: 0.3rem 0.6rem;
+}
+#project .bg-over-3 a .repo{
+    text-align: center;
+    /* position: absolute; */
+    width: 10rem;
+    
+    padding: 0.3rem;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    border-radius: 10px;
+    background: rgb(255, 103, 103);
+    margin-left: 3.3rem;
+    margin-bottom: 2rem;
+    transition: 1s;
+}
+#home #main .bg-container .image-overlay nav .content button {
+    cursor:  pointer;
+    transition: 0.3s ease-in-out;
+}
+#home #main .bg-container .image-overlay nav .content button:hover{
+    background: rgb(255, 155, 155);
+    color: black;
+}
+#project .bg-over-3 .pr-row .pr-box a {
+    position: relative;
+
+    cursor: pointer;
+}
+#project .bg-over-3 .pr-row .pr-box a .mt-1{
+    margin-top: 0.5rem;
+}
+#project .bg-over-3 .pr-row .pr-box a .mt-2{
+    margin-top: 1.8rem;
+}
+#project .bg-over-3 .pr-row .pr-box a .mt-3{
+    margin-top: 0.7rem;
+}
+#project .bg-over-3 .pr-row .pr-box a .mt-4{
+    margin-top: 2rem;
+}
+#skills .image-over-2 #skill-phone{
+    width: 100vw;
+    height: 100vh;
+    color: white;
+    margin-top: 4rem;
+    position: absolute;
+    font-family:'Roboto Mono', monospace;;
+    font-size: 2rem;
+    text-align: center;
+    
+}
+#project .bg-over-3 .pr-mobile{
+    margin-top: 2rem;
+    /* display: flex; */
+    justify-content: center;
+    color: white;
+    font-size: 1.7rem;
+    display: none;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+#project .bg-over-3 .pr-mobile .boxy-pr{
+    border-bottom: 2px solid white;
+    border-top: 2px solid white;
+    padding-top: .5rem;
+    padding-left: 0.7rem;
+}
+#project .bg-over-3 .pr-mobile .boxy-pr .repo{
+    margin-left: 1rem;
+    width: 5rem;
+}
+#contact{
+    width: 100%;
+    height: 100vh;
+    background: url(./images/layered-waves-haikei\ \(2\).svg);
+    background-size: cover;
+    /* background-repeat: ; */
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    background-position: 0 -50px ;
+
+}
+#contact h1{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 2.5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#contact .touch .touch-link h3{
+    align-items: center;
+    font-size: 1.4rem;
+    font: bold;
+    margin-bottom: 0.5rem;
+    padding-top: 0.5rem;
+    border-top: 1px solid black;
+    display: flex;
+    justify-content: center;
+}
+#contact .touch .touch-link i{
+    font-size: 2rem;
+    margin-right: 0.3rem;
+}
+#contact .touch .touch-link h3:nth-child(1) i{
+    color: rgb(255, 0, 212);
+}
+#contact .touch .touch-link h3:nth-child(2) i{
+    color: green;
+}
+#contact .touch .touch-link h3:nth-child(3) i{
+    color: rgb(0, 81, 255);
+}
+#contact .touch{
+    text-align: center;
+    width: 25rem;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.836);
+    height: 15rem;
+    margin-top:13rem ;
+}
+#contact .touch .touch-link h3 a{
+    letter-spacing: 2px;
+    margin-left: 0.3rem;
+    font: bolder;
+    text-decoration: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
